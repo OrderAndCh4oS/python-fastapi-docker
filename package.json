@@ -1,0 +1,8 @@
+{
+  "name": "python-fastapi-docker",
+  "version": "1.0.0",
+  "dependencies": {
+    "@aws-sdk/client-ssm": "^3.385.0",
+    "dotenv": "^16.3.1"
+  }
+}
