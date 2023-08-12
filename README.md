@@ -10,7 +10,7 @@ The application code is organized as follows:
 - `app/main.py`: FastAPI application code with a health check endpoint.
 - `Dockerfile`: Instructions for building a Docker image for the FastAPI application.
 - `.env`: Environment configuration file containing parameters for deployment.
-- `scripts/create-ssm-params.mjs`: Node.js script to create AWS Systems Manager (SSM) parameters.
+- `scripts/create-ssm-params.js`: Node.js script to create AWS Systems Manager (SSM) parameters.
 
 ## Dockerfile
 
