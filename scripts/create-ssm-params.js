@@ -1,7 +1,7 @@
 import {PutParameterCommand, SSMClient} from "@aws-sdk/client-ssm";
 
 import {config} from "dotenv";
-config({path: '../.env'})
+config({path: '.env'})
 
 const ssmClient = new SSMClient({ region: 'eu-west-1' });
 

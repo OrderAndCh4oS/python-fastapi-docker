@@ -1,6 +1,10 @@
 {
   "name": "python-fastapi-docker",
   "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "create-ssm-params": "node ./scripts/create-ssm-params.js"
+  },
   "dependencies": {
     "@aws-sdk/client-ssm": "^3.385.0",
     "dotenv": "^16.3.1"
