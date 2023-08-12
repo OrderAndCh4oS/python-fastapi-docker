@@ -7,33 +7,23 @@ const ssmClient = new SSMClient({ region: 'eu-west-1' });
 
 const parameters = [
     {
-        Name: '/api/certificateDomainName',
+        Name: '/api/certificate-domain-name',
         Value: process.env.CERTIFICATE_DOMAIN_NAME,
         Type: 'String'
     },
     {
-        Name: '/api/testCertificateDomainName',
-        Value: process.env.TEST_CERTIFICATE_DOMAIN_NAME,
-        Type: 'String'
-    },
-    {
-        Name: '/api/hostedZoneId',
+        Name: '/api/hosted-zone-id',
         Value: process.env.HOSTED_ZONE_ID,
         Type: 'String'
     },
     {
-        Name: '/api/hostedZoneName',
+        Name: '/api/hosted-zone-name',
         Value: process.env.HOSTED_ZONE_NAME,
         Type: 'String'
     },
     {
-        Name: '/api/aRecordName',
+        Name: '/api/a-record-name',
         Value: process.env.A_RECORD_NAME,
-        Type: 'String'
-    },
-    {
-        Name: '/api/TestARecordName',
-        Value: process.env.TEST_A_RECORD_NAME,
         Type: 'String'
     }
 ];
